@@ -3,6 +3,7 @@ import 'package:firebase_storage_image/views/controllers/image_picker/image_from
 import 'package:firebase_storage_image/views/controllers/sign_up_provider/image_from_gallery_provider.dart';
 import 'package:firebase_storage_image/views/controllers/sign_up_provider/sign_up_user_info_provider.dart';
 import 'package:firebase_storage_image/views/ui/auth_module/sign_up_screen.dart';
+import 'package:firebase_storage_image/views/ui/auth_module/sign_up_screen2.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -53,7 +54,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SignUpScreen()
+      home: SignUpScreen2()
+      //SignUpScreen()
     );
   }
 }
